@@ -20,7 +20,7 @@ const __dirname = path.dirname(__filename);
 
 app.use(express.static(path.join(__dirname, 'public')));
 app.use(express.urlencoded({ extended: true }));
-app.use(session({ secret: 'A4gQeWBHbrsUnSOaA4gQeWBHbrsUnSOaA4gQeWBHbrsUnSOa', resave: false, saveUninitialized: true }));
+app.use(session({ secret: 'A4gQeWBHbrsUnSOaAA3gQeWBHbrsUnSOaAagQeWBHbrsUnSOa', resave: false, saveUninitialized: true }));
 app.use(express.static('src'));
 
 const connectToDatabase = async () => {
